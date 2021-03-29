@@ -1,0 +1,53 @@
+.tarjeta{
+    display: inline-block;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  section{
+      float: left;
+  }
+  
+  .contenedor-img img{
+    background-color: #f6f6f6;
+    width: 100%;
+  }
+  
+  .tarjeta .texto-tarjeta{
+    padding-left: 10px;
+    
+  }
+  
+  .tarjeta p{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    color: gray;
+  }
+  
+  .tarjeta p strong{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    color: black;
+    
+  }
+  .tarjeta h2{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #4e4c4b;
+
+    &:hover{
+        color: #000;
+        cursor: pointer;
+    }
+    
+  }
+  
+  .tarjeta .precio{
+    color: #4e4c4b;
+    font-weight: 600;
+    font-size: 1rem;
+
+    &:hover{
+        color: #000;
+        cursor: pointer;
+    }
+  }

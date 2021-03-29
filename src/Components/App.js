@@ -5,13 +5,18 @@ import './App.css';
 import HomeCategorySlider from './HomeCategorySlider/HomeCategorySlider';
 import ExploreMore from './ExploreMore/ExploreMore';
 import Footer from './Footer/Footer';
+import ProductCard from './ProductCart/ProductCard';
+import ProductList from './ProductList/ProductList';
+import SnowboardList from "./SnowboardList/SnowboardList"
+import BagList from "./BagList/BagList"
+import Login from "./Login/Login"
 
 
 const App = () => {
 
   return (
     <div className="App">
-      <HomeSlider/>
+      {/* <HomeSlider/>
       <NewArrivals title="New Arrivals"/>
       <HomeCategorySlider/>
       <HomeHeroMedia 
@@ -26,7 +31,18 @@ const App = () => {
         description="Jake founded Burton Snowboards out of a Vermont barn in 1977 and dedicated the rest of his life to snowboarding."
         button="TAKE A MOMENT"
         backgroundImage="https://www.burton.com/dw/image/v2/AADF_PRD/on/demandware.static/-/Library-Sites-shared-content/default/dwa850f36d/FW21/W21-Jake-Page/21W-JakePage-FullBleedHero-01-mobile-2x.jpg?sw=768&sfrm=jpg&q=100"/>
-      <Footer/>
+      */}
+
+
+      {/* silinecek */}
+       {/* <ProductList/> */}
+
+       {/* <SnowboardList />
+        */}
+        {/* <BagList/> */}
+        
+        <Footer/> 
+     
     </div>
   );
 }
