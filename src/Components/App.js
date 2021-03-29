@@ -7,9 +7,10 @@ import ExploreMore from './ExploreMore/ExploreMore';
 import Footer from './Footer/Footer';
 import ProductCard from './ProductCart/ProductCard';
 import ProductList from './ProductList/ProductList';
-import SnowboardList from "./SnowboardList/SnowboardList"
+import Snowboard from "./Snowboard/Snowboard"
 import BagList from "./BagList/BagList"
-import Login from "./Login/Login"
+import Women from "./Women/Women"
+
 
 
 const App = () => {
@@ -33,13 +34,13 @@ const App = () => {
         backgroundImage="https://www.burton.com/dw/image/v2/AADF_PRD/on/demandware.static/-/Library-Sites-shared-content/default/dwa850f36d/FW21/W21-Jake-Page/21W-JakePage-FullBleedHero-01-mobile-2x.jpg?sw=768&sfrm=jpg&q=100"/>
       */}
 
+      {/* <Women /> */}
+      <Women />
+      
 
-      {/* silinecek */}
-       {/* <ProductList/> */}
 
-       {/* <SnowboardList />
-        */}
-        {/* <BagList/> */}
+
+    
         
         <Footer/> 
      
